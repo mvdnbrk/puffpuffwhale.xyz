@@ -34,6 +34,9 @@
                 <h1 class="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
                     {{ config('rune.ticker') }}
                 </h1>
+                <p class="mt-2 flex justify-center">
+                    <img src="{{ asset('images/puff-puff-whale.webp') }}" alt="Puff Puff Whale" class="rounded-lg"/>
+                </p>
                 <div class="mt-10 flex items-center justify-center gap-x-6">
                     <a href="{{ config('socials.twitter') }}" class="text-gray-900 hover:text-blue-600" target="_blank" rel="noopener">
                         <span class="sr-only">Twitter / X</span>
