@@ -34,7 +34,7 @@
                 <h1 class="mt-4 text-3xl font-bold tracking-tight text-gray-900 sm:text-5xl">
                     {{ config('rune.ticker') }}
                 </h1>
-                <p class="mt-2 flex justify-center">
+                <p class="mt-6 flex justify-center">
                     <img src="{{ asset('images/puff-puff-whale.webp') }}" alt="Puff Puff Whale" class="rounded-lg"/>
                 </p>
                 <div class="mt-10 flex items-center justify-center gap-x-6">
